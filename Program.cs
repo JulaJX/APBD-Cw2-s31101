@@ -23,7 +23,9 @@ namespace Linq
                 Console.WriteLine("11. Grupy po mieście");
                 Console.WriteLine("12. Średnia i max ocen");
                 Console.WriteLine("0. Koniec");
+                Console.Write(" ");
                 Console.Write("Wybór: ");
+                Console.Write(" ");
 
                 var wybor = Console.ReadLine();
                 if (wybor == "0") break;
